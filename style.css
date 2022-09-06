@@ -9,3 +9,55 @@
     rgba(217, 217, 217, 0) 100%
   );
 }
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 3rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+.title span {
+  padding: 0 1rem;
+  border-bottom: 0.3rem solid yellowgreen;
+}
+
+.icons {
+  font-size: 5rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.icons i {
+  font-size: 5rem;
+}
+.icons div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.projects {
+  background: rgba(190, 168, 170, 0.24);
+  background-blend-mode: darken;
+  min-height: 500vh;
+}
+
+.contact {
+  background: green;
+  background-blend-mode: darken;
+  /* border-radius: 30px; */
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  min-height: 100px;
+  text-align: center;
+}
+.goup {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+}
